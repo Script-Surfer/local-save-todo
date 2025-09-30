@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
         todoInput.value = "" //clear the input
     })
 
-    function renderTask() {
-        console.log(task);
+    function renderTask(task) {
+        console.log(task.text);
     }
     
     function saveTasks() {
